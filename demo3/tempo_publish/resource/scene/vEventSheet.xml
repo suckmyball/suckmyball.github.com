@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="v" previous="" next="" version="1.2">
+  <item type="instance" UID="325">
+    <item initValue="0" variableType="number" variableName="vaa" type="variable"/>
+  </item>
+  <item type="instance" UID="323">
+    <item type="behavior" behaviorType="TimerBehavior" name="计时器"/>
+  </item>
+  <item type="instance" UID="293"/>
+  <item type="instance" UID="291"/>
+  <item type="instance" UID="289"/>
+  <item type="instance" UID="285"/>
+  <item type="instance" UID="275"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="v22">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton288"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite284">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite290">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="v22">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton288">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="v22"/>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="bg">
+      <item valueDataType="any" value="0" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite290">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="v22">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="1000" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v2" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v3" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v4" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v4" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v5" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v5" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v6" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v6" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite72">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="v7" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="v7" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton96">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton96">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton96"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton100">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton100">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton102">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton102">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton96">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton96">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton102"/>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton100">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton102">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton100"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton100">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="AIButton102">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vc1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton100">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIButton102">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l2">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r2">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="l2">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="r2">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="r2"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l2">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r2">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="l2"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l2">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r2">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vc2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="l2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="r2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r3">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l3">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="r3">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="l3">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="r3"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r3">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l3">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="l3"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="l3">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="r3">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vc3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vc3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="r3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="l3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="1000" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv4" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv4" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv5" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv5" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vv6" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vv6" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="1000" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vcc1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="af">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ar">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="500" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="z1" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="z1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ar">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="af">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="ar"/>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ar">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="af">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="af"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ar">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="af">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vcc2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ar">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="af">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="br">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="br">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="bf">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="bf">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="bf"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="br">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="bf">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="br"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc3" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="br">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="bf">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vcc3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="br">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="bf">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ccr">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ccr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="cf">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cf">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="ccr"/>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc4" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ccr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="cf">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+      <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+        <item valueDataType="any" value="z1" name="tag"/>
+      </item>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="cf"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vcc4" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ccr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="cf">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vcc4" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ccr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cf">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="1000" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv4" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv4" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vl">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv5" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv5" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vvv6" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vvv6" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="vr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="1000" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="vce1" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="vce1" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite332">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="dr">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="dr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="df">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="df">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="dr"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve2" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="dr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="df">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="df"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="dr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="df">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve2" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="ve2" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="dr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="df">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="er">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="er">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ef">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ef">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="er"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="lh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="er">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ef">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve3" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="ef"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve3" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="er">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ef">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="ve3" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="er">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ef">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ff">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ff">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="fr">
+      <item valueDataType="any" value="1" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="ff"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="rh">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve4" name="23"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="fr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ff">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="fr"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="wrong">
+      <item valueDataType="any" value="1" name="2"/>
+      <item valueDataType="any" value="1" name="3"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="fr">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setEnabled" isTrigger="true" target="ff">
+      <item valueDataType="any" value="0" name="50"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="300" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve4" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="ve4" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="cr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite112">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="ff">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fr">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="500" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve5" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="ve5" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AISprite108">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="bg"/>
+    <item type="action" callTarget="instance" callName="addTo" isTrigger="true" target="va">
+      <item valueDataType="string" value="vaa" name="1" variable="true"/>
+      <item valueDataType="any" value="1" name="2"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startTimer" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="500" name="21"/>
+      <item valueDataType="any" value="1" name="22"/>
+      <item valueDataType="any" value="ve6" name="23"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="va">
+      <item valueDataType="string" value="vaa" name="instanceVariable" variable="true"/>
+      <item valueDataType="any" value="equalTo" name="operationType"/>
+      <item valueDataType="any" value="10" name="value"/>
+    </item>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="lw" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="TimerOnTimerCompleteEvent" callName="onTimerComplete" isTrigger="true" target="vt" behaviorName="计时器">
+      <item valueDataType="any" value="ve6" name="tag"/>
+    </item>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="ll" name="49"/>
+    </item>
+  </item>
+</eventSheets>
