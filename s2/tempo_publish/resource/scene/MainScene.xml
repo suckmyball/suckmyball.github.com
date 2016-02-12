@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout id="0" sceneSize="1708,2000" next="ll" previous="scene4" eventSheet="MainSceneEventSheet" version="1.2">
+  <item UID="4" plugin="AISprite" name="AISprite3" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="4" valueDataType="string"/>
+    <item name="x" value="0" valueDataType="number"/>
+    <item name="y" value="0" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="742" valueDataType="number"/>
+    <item name="height" value="1139" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fsence1.jpg" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="6" plugin="AISprite" name="AISprite5" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="6" valueDataType="string"/>
+    <item name="x" value="369.333" valueDataType="number"/>
+    <item name="y" value="313.683" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="569" valueDataType="number"/>
+    <item name="height" value="510" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Ftitle.png" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="8" plugin="AIButton" name="AIButton7" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="8" valueDataType="string"/>
+    <item name="x" value="132.49995358287322" valueDataType="number"/>
+    <item name="y" value="609.9999885261035" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="474" valueDataType="number"/>
+    <item name="height" value="96" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="upSkin" value="resource%2Fimage%2Fgamestar.png" valueDataType="string"/>
+    <item name="downSkin" value="resource%2Fimage%2Fgamestaron.png" valueDataType="string"/>
+    <item name="disableSkin" value="resource%2Fimage%2Fgamestar.png" valueDataType="string"/>
+    <item name="text" value="" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+    </item>
+  </item>
+  <item UID="81" plugin="AIAudio" name="AIAudio80" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="81" valueDataType="string"/>
+    <item name="x" value="658.35" valueDataType="number"/>
+    <item name="y" value="515" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fsound%2Fopen1.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="297" plugin="AIAudio" name="rh" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="true" valueDataType="boolean"/>
+    <item name="uiGuid" value="297" valueDataType="string"/>
+    <item name="x" value="1170" valueDataType="number"/>
+    <item name="y" value="780" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fsound%2F1.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="299" plugin="AIAudio" name="lh" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="true" valueDataType="boolean"/>
+    <item name="uiGuid" value="299" valueDataType="string"/>
+    <item name="x" value="1422.5" valueDataType="number"/>
+    <item name="y" value="637.5" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fsound%2F2.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="301" plugin="AIAudio" name="wrong" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="true" valueDataType="boolean"/>
+    <item name="uiGuid" value="301" valueDataType="string"/>
+    <item name="x" value="1417.5" valueDataType="number"/>
+    <item name="y" value="885" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fsound%2Fw.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+</layout>
