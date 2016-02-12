@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="vw" previous="" next="" version="1.2">
+  <item type="instance" UID="406"/>
+  <item type="instance" UID="404"/>
+  <item type="instance" UID="381"/>
+  <item type="instance" UID="379"/>
+  <item type="instance" UID="375"/>
+  <item type="instance" UID="373">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="371"/>
+  <item type="instance" UID="369"/>
+  <item type="instance" UID="367"/>
+  <item type="instance" UID="365"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AISprite372" behaviorName="闪烁">
+      <item valueDataType="any" value="0.5" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="oldman">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton364"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="AIMovieClip286"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="vr"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="vl"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton374"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="vr"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="vl"/>
+    <item type="action" callTarget="instance" callName="destory" isTrigger="true" target="AIMovieClip286"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+</eventSheets>
