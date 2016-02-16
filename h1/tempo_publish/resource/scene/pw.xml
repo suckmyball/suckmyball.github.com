@@ -49,7 +49,7 @@
     <item name="visible" value="true" valueDataType="boolean"/>
     <item name="collision" value="false" valueDataType="boolean"/>
     <item name="actions" value="" valueDataType="string">
-      <item name="动画" loop="1" fps="6" scaleX="1" scaleY="1">
+      <item name="动画" loop="1" fps="5" scaleX="1" scaleY="1">
         <item src="resource%2Fimage%2Fzhangs1.png"/>
         <item src="resource%2Fimage%2Fzhangs2.png"/>
         <item src="resource%2Fimage%2Fzhangs3.png"/>
