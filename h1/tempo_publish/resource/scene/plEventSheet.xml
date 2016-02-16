@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="pl" previous="" next="" version="1.2">
+  <item type="instance" UID="529"/>
+  <item type="instance" UID="421"/>
+  <item type="instance" UID="419"/>
+  <item type="instance" UID="417">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="415"/>
+  <item type="instance" UID="413"/>
+  <item type="instance" UID="411"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="oldman">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AISprite416" behaviorName="闪烁">
+      <item valueDataType="any" value="0.5" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="atb1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="atb2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton410"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton420"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+</eventSheets>

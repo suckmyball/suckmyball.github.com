@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout id="424" sceneSize="1708,2000" next="sss" previous="lw" eventSheet="pwEventSheet" version="1.2">
+  <item UID="430" plugin="AISprite" name="AISprite429" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="430" valueDataType="string"/>
+    <item name="x" value="371" valueDataType="number"/>
+    <item name="y" value="569.5" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="742" valueDataType="number"/>
+    <item name="height" value="1139" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fsence1.jpg" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="438" plugin="AISprite" name="AISprite437" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="438" valueDataType="string"/>
+    <item name="x" value="367.3" valueDataType="number"/>
+    <item name="y" value="1059.35" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="316" valueDataType="number"/>
+    <item name="height" value="53" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fel.png" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+    </item>
+  </item>
+  <item UID="493" plugin="AIMovieClip" name="AIMovieClip492" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="493" valueDataType="string"/>
+    <item name="x" value="362.3000154972116" valueDataType="number"/>
+    <item name="y" value="349.9833161142093" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="400" valueDataType="number"/>
+    <item name="height" value="419" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="actions" value="" valueDataType="string">
+      <item name="动画" loop="1" fps="6" scaleX="1" scaleY="1">
+        <item src="resource%2Fimage%2Fzhangs1.png"/>
+        <item src="resource%2Fimage%2Fzhangs2.png"/>
+        <item src="resource%2Fimage%2Fzhangs3.png"/>
+        <item src="resource%2Fimage%2Fzhangs4.png"/>
+        <item src="resource%2Fimage%2Fzhangs5.png"/>
+        <item src="resource%2Fimage%2Fzhangs6.png"/>
+        <item src="resource%2Fimage%2Fzhangs7.png"/>
+        <item src="resource%2Fimage%2Fzhangs8.png"/>
+        <item src="resource%2Fimage%2Fzhangs9.png"/>
+        <item src="resource%2Fimage%2Fzhangs10.png"/>
+        <item src="resource%2Fimage%2Fzhangs11.png"/>
+        <item src="resource%2Fimage%2Fzhangs12.png"/>
+        <item src="resource%2Fimage%2Fzhangs13.png"/>
+        <item src="resource%2Fimage%2Fzhangs14.png"/>
+        <item src="resource%2Fimage%2Fzhangs15.png"/>
+        <item src="resource%2Fimage%2Fzhangs16.png"/>
+        <item src="resource%2Fimage%2Fzhangs17.png"/>
+        <item src="resource%2Fimage%2Fzhangs18.png"/>
+        <item src="resource%2Fimage%2Fzhangs18.png"/>
+        <item src="resource%2Fimage%2Fzhangs18.png"/>
+      </item>
+    </item>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="495" plugin="AIMovieClip" name="fire1" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="495" valueDataType="string"/>
+    <item name="x" value="135.98334865835398" valueDataType="number"/>
+    <item name="y" value="619.8333126273367" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="72" valueDataType="number"/>
+    <item name="height" value="73" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="actions" value="" valueDataType="string">
+      <item name="动画" loop="1" fps="3" scaleX="1" scaleY="1">
+        <item src="resource%2Fimage%2Fbomb1.png"/>
+        <item src="resource%2Fimage%2Fbomb2.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+      </item>
+    </item>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="497" plugin="AIMovieClip" name="fire2" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="497" valueDataType="string"/>
+    <item name="x" value="573.35" valueDataType="number"/>
+    <item name="y" value="400" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="72" valueDataType="number"/>
+    <item name="height" value="73" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="actions" value="" valueDataType="string">
+      <item name="动画" loop="1" fps="3" scaleX="1" scaleY="1">
+        <item src="resource%2Fimage%2Fbomb1.png"/>
+        <item src="resource%2Fimage%2Fbomb2.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+      </item>
+    </item>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="499" plugin="AIMovieClip" name="fire3" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="499" valueDataType="string"/>
+    <item name="x" value="336.0000464916349" valueDataType="number"/>
+    <item name="y" value="663.2001385709007" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="72" valueDataType="number"/>
+    <item name="height" value="73" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="actions" value="" valueDataType="string">
+      <item name="动画" loop="1" fps="3" scaleX="1" scaleY="1">
+        <item src="resource%2Fimage%2Fbomb1.png"/>
+        <item src="resource%2Fimage%2Fbomb2.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+      </item>
+    </item>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="501" plugin="AIMovieClip" name="fire4" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="501" valueDataType="string"/>
+    <item name="x" value="138.0666058566739" valueDataType="number"/>
+    <item name="y" value="124.8499413490203" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="72" valueDataType="number"/>
+    <item name="height" value="73" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="actions" value="" valueDataType="string">
+      <item name="动画" loop="1" fps="3" scaleX="1" scaleY="1">
+        <item src="resource%2Fimage%2Fbomb1.png"/>
+        <item src="resource%2Fimage%2Fbomb2.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+        <item src="resource%2Fimage%2Fbomb3.png"/>
+      </item>
+    </item>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="527" plugin="AIAudio" name="AIAudio526" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="527" valueDataType="string"/>
+    <item name="x" value="970" valueDataType="number"/>
+    <item name="y" value="626.65" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fsound%2Fend.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="true" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+</layout>

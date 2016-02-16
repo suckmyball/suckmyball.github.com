@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="pw" previous="" next="" version="1.2">
+  <item type="instance" UID="527"/>
+  <item type="instance" UID="501"/>
+  <item type="instance" UID="499"/>
+  <item type="instance" UID="497"/>
+  <item type="instance" UID="495"/>
+  <item type="instance" UID="493"/>
+  <item type="instance" UID="438">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="430"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="oldman">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AISprite437" behaviorName="闪烁">
+      <item valueDataType="any" value="2" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire2"/>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire3"/>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire4"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareFrameEvent" callName="compareFrame" isTrigger="false" target="AIMovieClip492">
+      <item valueDataType="any" value="equalTo" name="operationType"/>
+      <item valueDataType="any" value="18" name="frame"/>
+    </item>
+    <item type="action" callTarget="instance" callName="gotoAndStop" isTrigger="true" target="AIMovieClip492">
+      <item valueDataType="any" value="19" name="33"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire1"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire2"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire3"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire4"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+</eventSheets>
