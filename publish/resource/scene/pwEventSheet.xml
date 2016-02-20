@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="pw" previous="" next="" version="1.2">
+  <item type="instance" UID="555"/>
+  <item type="instance" UID="527"/>
+  <item type="instance" UID="501"/>
+  <item type="instance" UID="499"/>
+  <item type="instance" UID="497"/>
+  <item type="instance" UID="495"/>
+  <item type="instance" UID="493"/>
+  <item type="instance" UID="438">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="430"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="oldman">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AISprite437" behaviorName="闪烁">
+      <item valueDataType="any" value="2" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire2"/>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire3"/>
+    <item type="action" callTarget="instance" callName="stop" isTrigger="true" target="fire4"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareFrameEvent" callName="compareFrame" isTrigger="false" target="AIMovieClip492">
+      <item valueDataType="any" value="equalTo" name="operationType"/>
+      <item valueDataType="any" value="18" name="frame"/>
+    </item>
+    <item type="action" callTarget="instance" callName="gotoAndStop" isTrigger="true" target="AIMovieClip492">
+      <item valueDataType="any" value="19" name="33"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire1"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire2"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire3"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="play" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="1" name="34"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="1" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnAllPlayCompleteEvent" callName="onAllPlayComplete" isTrigger="true" target="fire4"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="fire4">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="WeiXinTimelineTriggerEvent" callName="weixinTimelineTrigger" isTrigger="true" target="AIWeiXin554"/>
+    <item type="action" callTarget="instance" callName="setShareTimeline" isTrigger="true" target="AIWeiXin554">
+      <item valueDataType="any" value="2016%EF%BC%8C%E6%88%91%E6%88%98%E8%83%9C%E4%BA%86%E3%80%8C%E6%87%92%E6%83%B0%E3%80%8D%E3%80%81%E3%80%8C%E7%96%BE%E7%97%85%E3%80%8D%E3%80%81%E3%80%8C%E8%B4%AB%E7%A9%B7%E3%80%8D%EF%BC%81" name="100"/>
+      <item valueDataType="any" value="http%3A%2F%2F1.sickfever.applinzi.com%2Findex.html" name="102"/>
+      <item valueDataType="any" value="resource%2Fimage%2FFX5.jpg" name="103"/>
+    </item>
+  </item>
+</eventSheets>

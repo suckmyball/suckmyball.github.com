@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="vw" previous="" next="" version="1.2">
+  <item type="instance" UID="549"/>
+  <item type="instance" UID="525"/>
+  <item type="instance" UID="523"/>
+  <item type="instance" UID="406"/>
+  <item type="instance" UID="404"/>
+  <item type="instance" UID="379"/>
+  <item type="instance" UID="375"/>
+  <item type="instance" UID="373">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="371"/>
+  <item type="instance" UID="369"/>
+  <item type="instance" UID="367"/>
+  <item type="instance" UID="365"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip286">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="AIMovieClip28">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AISprite372" behaviorName="闪烁">
+      <item valueDataType="any" value="0.5" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="oldman">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg3">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg1">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+    <item type="action" callTarget="instance" callName="setVisible" isTrigger="true" target="lg2">
+      <item valueDataType="any" value="0" name="32"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton364"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton374"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="p" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="WeiXinTimelineTriggerEvent" callName="weixinTimelineTrigger" isTrigger="true" target="AIWeiXin548"/>
+    <item type="action" callTarget="instance" callName="setShareTimeline" isTrigger="true" target="AIWeiXin548">
+      <item valueDataType="any" value="2016%EF%BC%8C%E6%88%91%E5%90%91%E3%80%8C%E7%96%BE%E7%97%85%E3%80%8D%E8%AF%B4%E5%86%8D%E8%A7%81%EF%BC%81" name="100"/>
+      <item valueDataType="any" value="http%3A%2F%2F1.sickfever.applinzi.com%2Findex.htm" name="102"/>
+      <item valueDataType="any" value="resource%2Fimage%2FFX3.jpg" name="103"/>
+    </item>
+  </item>
+</eventSheets>

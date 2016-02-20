@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="MainScene" previous="" next="" version="1.2">
+  <item type="instance" UID="531"/>
+  <item type="instance" UID="505"/>
+  <item type="instance" UID="301"/>
+  <item type="instance" UID="299"/>
+  <item type="instance" UID="297"/>
+  <item type="instance" UID="8">
+    <item type="behavior" behaviorType="FlashBehavior" name="闪烁"/>
+  </item>
+  <item type="instance" UID="6"/>
+  <item type="instance" UID="4"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCreatedEvent" callName="onCreated" isTrigger="true" target="AIButton7"/>
+    <item type="action" callTarget="instance" callName="startFlash" isTrigger="true" target="AIButton7" behaviorName="闪烁">
+      <item valueDataType="any" value="0.5" name="25"/>
+      <item valueDataType="any" value="0.5" name="26"/>
+      <item valueDataType="any" value="0" name="27"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="AIButton7"/>
+    <item type="action" callTarget="instance" callName="gotoScene" isTrigger="true" target="System">
+      <item valueDataType="any" value="scene1" name="49"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="WeiXinTimelineTriggerEvent" callName="weixinTimelineTrigger" isTrigger="true" target="AIWeiXin530"/>
+    <item type="action" callTarget="instance" callName="setShareTimeline" isTrigger="true" target="AIWeiXin530">
+      <item valueDataType="any" value="%E7%94%A8%E8%8A%82%E5%A5%8F%E6%88%98%E8%83%9C%E3%80%8C%E6%87%92%E6%83%B0%E3%80%8D%E3%80%81%E3%80%8C%E7%96%BE%E7%97%85%E3%80%8D%E3%80%81%E3%80%8C%E8%B4%AB%E7%A9%B7%E3%80%8D%E5%90%A7%EF%BC%81" name="100"/>
+      <item valueDataType="any" value="http%3A%2F%2F1.sickfever.applinzi.com%2Findex.html" name="102"/>
+      <item valueDataType="any" value="resource%2Fimage%2FFX1.jpg" name="103"/>
+    </item>
+  </item>
+</eventSheets>

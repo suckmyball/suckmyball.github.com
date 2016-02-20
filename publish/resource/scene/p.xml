@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout id="382" sceneSize="1708,2000" next="pl" previous="ll" eventSheet="pEventSheet" version="1.2">
+  <item UID="386" plugin="AISprite" name="AISprite385" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="386" valueDataType="string"/>
+    <item name="x" value="367.5" valueDataType="number"/>
+    <item name="y" value="29.5" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="163" valueDataType="number"/>
+    <item name="height" value="33" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fqbb.png" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="388" plugin="AISprite" name="pt" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="388" valueDataType="string"/>
+    <item name="x" value="965" valueDataType="number"/>
+    <item name="y" value="285" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="TimerBehavior" name="计时器"/>
+    </item>
+  </item>
+  <item UID="390" plugin="AISprite" name="pac" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="390" valueDataType="string"/>
+    <item name="x" value="948.35" valueDataType="number"/>
+    <item name="y" value="481.65" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="392" plugin="AISprite" name="AISprite391" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="392" valueDataType="string"/>
+    <item name="x" value="369" valueDataType="number"/>
+    <item name="y" value="897.499" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="663" valueDataType="number"/>
+    <item name="height" value="249" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fmtp.png" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="396" plugin="AISprite" name="AISprite395" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="396" valueDataType="string"/>
+    <item name="x" value="369" valueDataType="number"/>
+    <item name="y" value="897.499" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="650" valueDataType="number"/>
+    <item name="height" value="249" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="false" valueDataType="boolean"/>
+    <item name="url" value="resource%2Fimage%2Fptts.png" valueDataType="string"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="551" plugin="AIWeiXin" name="AIWeiXin550" parallaxX="100" parallaxY="100" isVirtual="false">
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="uiGuid" value="551" valueDataType="string"/>
+    <item name="x" value="800" valueDataType="number"/>
+    <item name="y" value="478" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="weixinSignUrl" value="http%3A%2F%2F1.sickfever.applinzi.com%2Fsignature.php" valueDataType="any"/>
+    <item name="title" value="%E6%88%91%E8%A6%81%E8%84%B1%E8%B4%AB%EF%BC%81" valueDataType="any"/>
+    <item name="desc" value="%E7%94%A8%E8%8A%82%E5%A5%8F%E6%88%98%E8%83%9C%E3%80%8C%E6%87%92%E6%83%B0%E3%80%8D%E3%80%81%E3%80%8C%E7%96%BE%E7%97%85%E3%80%8D%E3%80%81%E3%80%8C%E8%B4%AB%E7%A9%B7%E3%80%8D%E5%90%A7%EF%BC%81" valueDataType="any"/>
+    <item name="link" value="http%3A%2F%2F1.sickfever.applinzi.com%2Findex.html" valueDataType="any"/>
+    <item name="imgUrl" value="resource%2Fimage%2FFX4.jpg" valueDataType="string"/>
+    <item name="weixinDebug" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+</layout>
